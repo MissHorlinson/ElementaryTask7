@@ -11,7 +11,7 @@ public class SequenceController {
 
     public void runOrder() {
         Sequence model = new Sequence(getNumber());
-        output.resultString(service.orderForScreen(model.getNumber()));
+        output.resultString(service.sequenceForScreen(model.getNumber()));
     }
 
     public int getNumber() {
