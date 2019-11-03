@@ -1,7 +1,10 @@
 package model;
 
 public class Sequence {
+
     private int number;
+
+    public Sequence() { }
 
     public Sequence(int number) {
         this.number = number;
